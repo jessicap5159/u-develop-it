@@ -208,13 +208,6 @@ app.use((req, res) => {
 });
 
 
-
-
-
-
-
-
-
 // Adds the function that starts Express.js server on port 3001
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
